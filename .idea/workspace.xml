@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="152e4f1d-9817-4b34-b765-0393dab6ab73" name="Changes" comment="" />
+    <list default="true" id="152e4f1d-9817-4b34-b765-0393dab6ab73" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameOfLife.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +25,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/IdeaProjects/untitled"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GameOfLife" />
       <module name="GameOFLifee" />
-      <option name="PROGRAM_PARAMETERS" value="w=20 h=40 g=10 s=250 p=00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000#00000010000010000000#00000111000111000000#00001001000100100000#00011100000001110000#00001010000010100000#0000001100011000000#00100001000100001000#00000001000100000000#00110001000100011000#00001001000100100000#00000010000010000000#00000000000000000000#00000000000000000000#00000000000000000000#00000000000000000000" />
+      <option name="PROGRAM_PARAMETERS" value="w=10 h=10 g=0 s=250 p=&quot;rnd&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -47,5 +54,20 @@
       <updated>1692331620106</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/GameOfLife.java</url>
+          <line>9</line>
+          <properties class="GameOfLife" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

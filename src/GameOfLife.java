@@ -198,10 +198,9 @@ public class GameOfLife {
 
         if (contienep) {
             poblacionValida(population);
-            if (population.equals("rdn")) {
+            if (population.equals("rdn") || population.equals("rnd")) {
                 population = generateRandom(height);
                 System.out.println("- Población generada aleatoriamente: [" + population + "]");
-                tableshow();
 
             } else if (validtable) {
                 if (isValidValue(height, new int[]{10, 20, 40}) && isValidValue(width, new int[]{10, 20, 40, 80})) {
